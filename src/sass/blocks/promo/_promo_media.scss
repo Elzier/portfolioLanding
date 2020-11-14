@@ -49,12 +49,12 @@
 @media (max-width: 768px) {
 	.title {
 		&_fz48 {
-			font-size: 32px;
+			font-size: 36px;
 		}
 	}
 	.promo {
 		&__title {
-			width: 370px;
+			width: 430px;
 			line-height: 37px;
 			padding-left: 30px;
 		}
@@ -101,9 +101,10 @@
 		}
 	}
 	.promo {
+		background: url('../img/main_bg.jpg') no-repeat 57%/cover;
 		&__title {
 			padding-left: 0px;
-			width: 300px;
+			width: 280px;
 		}
 		&__subtitle {
 			padding-left: 10px;
@@ -114,7 +115,7 @@
 		}
 		&__btns {
 			margin-top: 32px;
-			width: 250px;
+			width: 235px;
 			padding-left: 0;
 		}
 	}
