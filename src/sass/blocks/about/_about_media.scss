@@ -1,15 +1,12 @@
-@media (max-width: 5000px) {
-	.about__mobilephoto {
-		display: none;
-	}
-}
-
 @media (max-width: 1366px) {
-	
+	.about {
+		padding-top: 100px;
+	}
 }
 
 @media (max-width: 1200px) {
 	.about {
+		padding-top: 100px;
 		&__wrapper {
 			grid-template-columns: 400px 520px;
 			column-gap: 35px;
@@ -24,24 +21,8 @@
 		}
 	}
 }
-// 	.about {
-// 		&__wrapper {
-// 			grid-template-columns: 400px 520px;
-// 			column-gap: 40px;
-// 		}
-// 		&__skills {
-// 			column-gap: 20px;
-// 			grid-template: repeat(2,minmax(115px, auto))/repeat(2, 250px);
-// 		}
-// 	}
-// }
 
 @media (max-width: 992px) {
-	.title {
-		&_fz36 {
-			font-size: 30px;
-		}
-	}
 	.about {
 		&__wrapper {
 			grid-template-columns: 310px 380px;
@@ -74,11 +55,6 @@
 				column-gap: 16px;
 			}
 		}
-		// &__mobilephoto {
-		// 	display: block;
-		// 	justify-self: center;
-		// 	// width: 100%;
-		// }
 	}
 }
 

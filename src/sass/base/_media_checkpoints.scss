@@ -8,15 +8,36 @@
 	.container {
 		max-width: 960px;
 	}
+	.title {
+		&_fz36 {
+			margin-top: 10px;
+			line-height: 45px;
+		}
+	}
 }
 
 @media (max-width: 992px) {
+	.title {
+		&_fz36 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		&_fz14 {
+			line-height: 21px;
+		}
+	}
 	.container {
 		max-width: 720px;
 	}
 }
 
 @media (max-width: 768px) {
+	.title {
+		&_fz36 {
+			line-height: 40px;
+			margin-top: 25px;
+		}
+	}
 	.container {
 		max-width: 540px;
 	}
@@ -26,6 +47,9 @@
 	.title {
 		&_fz36 {
 			font-size: 24px;
+		}
+		&_fz14 {
+			font-size: 14px;
 		}
 	}
 	.container {
